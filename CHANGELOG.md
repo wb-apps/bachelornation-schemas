@@ -1,6 +1,10 @@
 # CHANGELOG
 
 
+## v0.1.1
+* Use `triniti/schemas` v1.0.4.
+
+
 ## v0.1.0
 * __Add Schemas:__
   * __bachelornation:apollo__
