@@ -524,6 +524,30 @@
         "format": "slug"
       }
     },
+    "related_teasers_heading": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 255,
+      "pbj": {
+        "type": "string",
+        "rule": "single"
+      }
+    },
+    "related_teaser_refs": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string",
+          "pattern": "^[\\w\\/\\.:-]+$"
+        }
+      ],
+      "uniqueItems": true,
+      "additionalProperties": false,
+      "pbj": {
+        "type": "identifier",
+        "rule": "set"
+      }
+    },
     "order_date": {
       "type": "string",
       "format": "date-time",
