@@ -25,6 +25,8 @@ use Triniti\Schemas\Common\Mixin\Seo\SeoV1 as TrinitiCommonSeoV1;
 use Triniti\Schemas\Common\Mixin\Seo\SeoV1Mixin as TrinitiCommonSeoV1Mixin;
 use Triniti\Schemas\Common\Mixin\Swipeable\SwipeableV1 as TrinitiCommonSwipeableV1;
 use Triniti\Schemas\Common\Mixin\Swipeable\SwipeableV1Mixin as TrinitiCommonSwipeableV1Mixin;
+use Triniti\Schemas\Curator\Mixin\HasRelatedTeasers\HasRelatedTeasersV1 as TrinitiCuratorHasRelatedTeasersV1;
+use Triniti\Schemas\Curator\Mixin\HasRelatedTeasers\HasRelatedTeasersV1Mixin as TrinitiCuratorHasRelatedTeasersV1Mixin;
 use Triniti\Schemas\Curator\Mixin\Teaserable\TeaserableV1 as TrinitiCuratorTeaserableV1;
 use Triniti\Schemas\Curator\Mixin\Teaserable\TeaserableV1Mixin as TrinitiCuratorTeaserableV1Mixin;
 use Triniti\Schemas\Ovp\Mixin\Video\VideoV1 as TrinitiOvpVideoV1;
@@ -52,6 +54,7 @@ final class VideoV1 extends AbstractMessage implements
     TrinitiCommonAdvertisingV1,
     TrinitiCommonSeoV1,
     TrinitiCommonSwipeableV1,
+    TrinitiCuratorHasRelatedTeasersV1,
     TrinitiCuratorTeaserableV1,
     TrinitiPeopleHasPeopleV1,
     TrinitiTaxonomyCategorizableV1,
@@ -80,6 +83,7 @@ final class VideoV1 extends AbstractMessage implements
                 TrinitiCommonAdvertisingV1Mixin::create(),
                 TrinitiCommonSeoV1Mixin::create(),
                 TrinitiCommonSwipeableV1Mixin::create(),
+                TrinitiCuratorHasRelatedTeasersV1Mixin::create(),
                 TrinitiCuratorTeaserableV1Mixin::create(),
                 TrinitiPeopleHasPeopleV1Mixin::create(),
                 TrinitiTaxonomyCategorizableV1Mixin::create(),

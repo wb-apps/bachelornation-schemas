@@ -1,6 +1,22 @@
 # CHANGELOG
 
 
+## v0.1.3
+* Use `triniti/schemas` v1.0.7.
+* __Add Schemas:__
+  * `bachelornation:canvas:block:divider-block`
+  * `bachelornation:curator:command:remove-teaser-slotting`
+  * `bachelornation:curator:event:teaser-slotting-removed`
+  * `bachelornation:curator:node:asset-teaser`
+* __Modify Schemas:__ _(no version changes as there is no production use yet)_
+  * `bachelornation:canvas:node:page`
+    * Add mixin `triniti:curator:mixin:has-related-teasers:v1`
+  * `bachelornation:news:node:article`
+    * Add mixin `triniti:curator:mixin:has-related-teasers:v1`
+  * `bachelornation:ovp:node:video`
+    * Add mixin `triniti:curator:mixin:has-related-teasers:v1`
+
+
 ## v0.1.2
 * Use `triniti/schemas` v1.0.5.
 

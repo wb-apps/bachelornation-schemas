@@ -65,6 +65,7 @@ import '@bachelornation/schemas/bachelornation/boost/request/SearchSponsorsRespo
 import '@bachelornation/schemas/bachelornation/canvas/block/ArticleBlockV1';
 import '@bachelornation/schemas/bachelornation/canvas/block/AudioBlockV1';
 import '@bachelornation/schemas/bachelornation/canvas/block/CodeBlockV1';
+import '@bachelornation/schemas/bachelornation/canvas/block/DividerBlockV1';
 import '@bachelornation/schemas/bachelornation/canvas/block/DocumentBlockV1';
 import '@bachelornation/schemas/bachelornation/canvas/block/FacebookPostBlockV1';
 import '@bachelornation/schemas/bachelornation/canvas/block/FacebookVideoBlockV1';
@@ -140,6 +141,7 @@ import '@bachelornation/schemas/bachelornation/curator/command/PublishGalleryV1'
 import '@bachelornation/schemas/bachelornation/curator/command/PublishPromotionV1';
 import '@bachelornation/schemas/bachelornation/curator/command/PublishTeaserV1';
 import '@bachelornation/schemas/bachelornation/curator/command/PublishTimelineV1';
+import '@bachelornation/schemas/bachelornation/curator/command/RemoveTeaserSlottingV1';
 import '@bachelornation/schemas/bachelornation/curator/command/RenameGalleryV1';
 import '@bachelornation/schemas/bachelornation/curator/command/RenameTimelineV1';
 import '@bachelornation/schemas/bachelornation/curator/command/SyncTeaserV1';
@@ -180,6 +182,7 @@ import '@bachelornation/schemas/bachelornation/curator/event/TeaserMarkedAsDraft
 import '@bachelornation/schemas/bachelornation/curator/event/TeaserMarkedAsPendingV1';
 import '@bachelornation/schemas/bachelornation/curator/event/TeaserPublishedV1';
 import '@bachelornation/schemas/bachelornation/curator/event/TeaserScheduledV1';
+import '@bachelornation/schemas/bachelornation/curator/event/TeaserSlottingRemovedV1';
 import '@bachelornation/schemas/bachelornation/curator/event/TeaserUnpublishedV1';
 import '@bachelornation/schemas/bachelornation/curator/event/TeaserUpdatedV1';
 import '@bachelornation/schemas/bachelornation/curator/event/TimelineCreatedV1';
@@ -198,6 +201,7 @@ import '@bachelornation/schemas/bachelornation/curator/event/WidgetUpdatedV1';
 import '@bachelornation/schemas/bachelornation/curator/node/AdWidgetV1';
 import '@bachelornation/schemas/bachelornation/curator/node/AlertWidgetV1';
 import '@bachelornation/schemas/bachelornation/curator/node/ArticleTeaserV1';
+import '@bachelornation/schemas/bachelornation/curator/node/AssetTeaserV1';
 import '@bachelornation/schemas/bachelornation/curator/node/BlogrollWidgetV1';
 import '@bachelornation/schemas/bachelornation/curator/node/CarouselWidgetV1';
 import '@bachelornation/schemas/bachelornation/curator/node/CategoryTeaserV1';

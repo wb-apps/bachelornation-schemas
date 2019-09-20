@@ -13,6 +13,7 @@ import TrinitiBoostSponsorableV1Mixin from '@triniti/schemas/triniti/boost/mixin
 import TrinitiCommonAdvertisingV1Mixin from '@triniti/schemas/triniti/common/mixin/advertising/AdvertisingV1Mixin';
 import TrinitiCommonSeoV1Mixin from '@triniti/schemas/triniti/common/mixin/seo/SeoV1Mixin';
 import TrinitiCommonSwipeableV1Mixin from '@triniti/schemas/triniti/common/mixin/swipeable/SwipeableV1Mixin';
+import TrinitiCuratorHasRelatedTeasersV1Mixin from '@triniti/schemas/triniti/curator/mixin/has-related-teasers/HasRelatedTeasersV1Mixin';
 import TrinitiCuratorTeaserableV1Mixin from '@triniti/schemas/triniti/curator/mixin/teaserable/TeaserableV1Mixin';
 import TrinitiOvpVideoV1Mixin from '@triniti/schemas/triniti/ovp/mixin/video/VideoV1Mixin';
 import TrinitiOvpVideoV1Trait from '@triniti/schemas/triniti/ovp/mixin/video/VideoV1Trait';
@@ -42,6 +43,7 @@ export default class VideoV1 extends Message {
         TrinitiCommonAdvertisingV1Mixin.create(),
         TrinitiCommonSeoV1Mixin.create(),
         TrinitiCommonSwipeableV1Mixin.create(),
+        TrinitiCuratorHasRelatedTeasersV1Mixin.create(),
         TrinitiCuratorTeaserableV1Mixin.create(),
         TrinitiPeopleHasPeopleV1Mixin.create(),
         TrinitiTaxonomyCategorizableV1Mixin.create(),

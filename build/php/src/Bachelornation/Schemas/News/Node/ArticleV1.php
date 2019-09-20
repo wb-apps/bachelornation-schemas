@@ -31,6 +31,8 @@ use Triniti\Schemas\Common\Mixin\Swipeable\SwipeableV1 as TrinitiCommonSwipeable
 use Triniti\Schemas\Common\Mixin\Swipeable\SwipeableV1Mixin as TrinitiCommonSwipeableV1Mixin;
 use Triniti\Schemas\Common\Mixin\Themeable\ThemeableV1 as TrinitiCommonThemeableV1;
 use Triniti\Schemas\Common\Mixin\Themeable\ThemeableV1Mixin as TrinitiCommonThemeableV1Mixin;
+use Triniti\Schemas\Curator\Mixin\HasRelatedTeasers\HasRelatedTeasersV1 as TrinitiCuratorHasRelatedTeasersV1;
+use Triniti\Schemas\Curator\Mixin\HasRelatedTeasers\HasRelatedTeasersV1Mixin as TrinitiCuratorHasRelatedTeasersV1Mixin;
 use Triniti\Schemas\Curator\Mixin\Teaserable\TeaserableV1 as TrinitiCuratorTeaserableV1;
 use Triniti\Schemas\Curator\Mixin\Teaserable\TeaserableV1Mixin as TrinitiCuratorTeaserableV1Mixin;
 use Triniti\Schemas\News\Mixin\Article\ArticleV1 as TrinitiNewsArticleV1;
@@ -63,6 +65,7 @@ final class ArticleV1 extends AbstractMessage implements
     TrinitiCommonSeoV1,
     TrinitiCommonSwipeableV1,
     TrinitiCommonThemeableV1,
+    TrinitiCuratorHasRelatedTeasersV1,
     TrinitiCuratorTeaserableV1,
     TrinitiNotifyHasNotificationsV1,
     TrinitiPeopleHasPeopleV1,
@@ -95,6 +98,7 @@ final class ArticleV1 extends AbstractMessage implements
                 TrinitiCommonSeoV1Mixin::create(),
                 TrinitiCommonSwipeableV1Mixin::create(),
                 TrinitiCommonThemeableV1Mixin::create(),
+                TrinitiCuratorHasRelatedTeasersV1Mixin::create(),
                 TrinitiCuratorTeaserableV1Mixin::create(),
                 TrinitiNotifyHasNotificationsV1Mixin::create(),
                 TrinitiPeopleHasPeopleV1Mixin::create(),
