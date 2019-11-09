@@ -109,6 +109,9 @@
         },
         {
           "$ref": "https://schemas.bachelornation.com/json-schema/gdbots/pbjx/mixin/request/1-0-1.json#"
+        },
+        {
+          "$ref": "https://schemas.bachelornation.com/json-schema/gdbots/pbjx/mixin/request/1-0-2.json#"
         }
       ]
     }
