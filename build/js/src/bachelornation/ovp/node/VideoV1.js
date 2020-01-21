@@ -15,7 +15,6 @@ import TrinitiCommonSeoV1Mixin from '@triniti/schemas/triniti/common/mixin/seo/S
 import TrinitiCommonSwipeableV1Mixin from '@triniti/schemas/triniti/common/mixin/swipeable/SwipeableV1Mixin';
 import TrinitiCuratorHasRelatedTeasersV1Mixin from '@triniti/schemas/triniti/curator/mixin/has-related-teasers/HasRelatedTeasersV1Mixin';
 import TrinitiCuratorTeaserableV1Mixin from '@triniti/schemas/triniti/curator/mixin/teaserable/TeaserableV1Mixin';
-import TrinitiOvpMedialiveHasChannelV1Mixin from '@triniti/schemas/triniti/ovp.medialive/mixin/has-channel/HasChannelV1Mixin';
 import TrinitiOvpVideoV1Mixin from '@triniti/schemas/triniti/ovp/mixin/video/VideoV1Mixin';
 import TrinitiOvpVideoV1Trait from '@triniti/schemas/triniti/ovp/mixin/video/VideoV1Trait';
 import TrinitiPeopleHasPeopleV1Mixin from '@triniti/schemas/triniti/people/mixin/has-people/HasPeopleV1Mixin';
@@ -35,7 +34,6 @@ export default class VideoV1 extends Message {
       [
         GdbotsNcrNodeV1Mixin.create(),
         TrinitiOvpVideoV1Mixin.create(),
-        TrinitiOvpMedialiveHasChannelV1Mixin.create(),
         GdbotsCommonTaggableV1Mixin.create(),
         GdbotsNcrExpirableV1Mixin.create(),
         GdbotsNcrIndexedV1Mixin.create(),

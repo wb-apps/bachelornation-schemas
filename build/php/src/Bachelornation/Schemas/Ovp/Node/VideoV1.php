@@ -29,8 +29,6 @@ use Triniti\Schemas\Curator\Mixin\HasRelatedTeasers\HasRelatedTeasersV1 as Trini
 use Triniti\Schemas\Curator\Mixin\HasRelatedTeasers\HasRelatedTeasersV1Mixin as TrinitiCuratorHasRelatedTeasersV1Mixin;
 use Triniti\Schemas\Curator\Mixin\Teaserable\TeaserableV1 as TrinitiCuratorTeaserableV1;
 use Triniti\Schemas\Curator\Mixin\Teaserable\TeaserableV1Mixin as TrinitiCuratorTeaserableV1Mixin;
-use Triniti\Schemas\OvpMedialive\Mixin\HasChannel\HasChannelV1 as TrinitiOvpMedialiveHasChannelV1;
-use Triniti\Schemas\OvpMedialive\Mixin\HasChannel\HasChannelV1Mixin as TrinitiOvpMedialiveHasChannelV1Mixin;
 use Triniti\Schemas\Ovp\Mixin\Video\VideoV1 as TrinitiOvpVideoV1;
 use Triniti\Schemas\Ovp\Mixin\Video\VideoV1Mixin as TrinitiOvpVideoV1Mixin;
 use Triniti\Schemas\Ovp\Mixin\Video\VideoV1Trait as TrinitiOvpVideoV1Trait;
@@ -47,7 +45,6 @@ final class VideoV1 extends AbstractMessage implements
     Video,
     GdbotsNcrNodeV1,
     TrinitiOvpVideoV1,
-    TrinitiOvpMedialiveHasChannelV1,
     GdbotsCommonTaggableV1,
     GdbotsNcrExpirableV1,
     GdbotsNcrIndexedV1,
@@ -77,7 +74,6 @@ final class VideoV1 extends AbstractMessage implements
             [
                 GdbotsNcrNodeV1Mixin::create(),
                 TrinitiOvpVideoV1Mixin::create(),
-                TrinitiOvpMedialiveHasChannelV1Mixin::create(),
                 GdbotsCommonTaggableV1Mixin::create(),
                 GdbotsNcrExpirableV1Mixin::create(),
                 GdbotsNcrIndexedV1Mixin::create(),

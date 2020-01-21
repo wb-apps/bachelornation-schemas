@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.2.4
+* Use `triniti/schemas` v1.1.6.
+* __Modify Schemas:__ _(no version changes as there is no production use yet)_
+  * `bachelornation:ovp:node:video`
+    * Remove mixin `triniti:ovp.medialive:mixin:has-channel:v1`
+
+
 ## v0.2.3
 * Use `gdbots/schemas` v1.6.3.
 * Use `triniti/schemas` v1.1.5.
