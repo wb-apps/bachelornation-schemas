@@ -413,9 +413,17 @@
         "rule": "single"
       }
     },
-    "medialive_channel_arn": {
+    "youtube_video_id": {
       "type": "string",
-      "pattern": "^[\\w:-]+$",
+      "pattern": "^[\\w-]+$",
+      "pbj": {
+        "type": "string",
+        "rule": "single"
+      }
+    },
+    "youtube_custom_id": {
+      "type": "string",
+      "pattern": "^[\\w@#-]+$",
       "pbj": {
         "type": "string",
         "rule": "single"
