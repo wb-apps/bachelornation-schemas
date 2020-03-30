@@ -1,6 +1,13 @@
 # CHANGELOG
 
 
+## v0.2.6
+* Use `gdbots/schemas` v1.6.5.
+* Use `triniti/schemas` v1.1.8.
+* __Add Schemas:__
+  * `bachelornation:canvas:block:tumblr-post-block`
+
+
 ## v0.2.5
 * Use `gdbots/schemas` v1.6.4.
 * Use `triniti/schemas` v1.1.7.
