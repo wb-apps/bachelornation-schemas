@@ -1,6 +1,12 @@
 # CHANGELOG
 
 
+## v1.0.1
+* __Modify Schemas:__ _v1.0.1_
+* `bachelornation:curator:node:timeline`
+    * Add mixin `triniti:common:mixin:custom-code:v1`
+
+
 ## v1.0.0
 * Use `triniti/schemas` v1.1.9.
 
