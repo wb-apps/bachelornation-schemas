@@ -1,6 +1,6 @@
 {
   "name": "@bachelornation/schemas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Schemas for all BachelorNation apps and components.",
   "repository": {
     "type": "git",

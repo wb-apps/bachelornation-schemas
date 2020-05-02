@@ -1,5 +1,5 @@
 <?php
-// @link https://schemas.bachelornation.com/json-schema/bachelornation/curator/node/timeline/1-0-0.json#
+// @link https://schemas.bachelornation.com/json-schema/bachelornation/curator/node/timeline/1-0-1.json#
 namespace Bachelornation\Schemas\Curator\Node;
 
 use Gdbots\Pbj\AbstractMessage;
@@ -21,6 +21,8 @@ use Triniti\Schemas\Boost\Mixin\Sponsorable\SponsorableV1 as TrinitiBoostSponsor
 use Triniti\Schemas\Boost\Mixin\Sponsorable\SponsorableV1Mixin as TrinitiBoostSponsorableV1Mixin;
 use Triniti\Schemas\Common\Mixin\Advertising\AdvertisingV1 as TrinitiCommonAdvertisingV1;
 use Triniti\Schemas\Common\Mixin\Advertising\AdvertisingV1Mixin as TrinitiCommonAdvertisingV1Mixin;
+use Triniti\Schemas\Common\Mixin\CustomCode\CustomCodeV1 as TrinitiCommonCustomCodeV1;
+use Triniti\Schemas\Common\Mixin\CustomCode\CustomCodeV1Mixin as TrinitiCommonCustomCodeV1Mixin;
 use Triniti\Schemas\Common\Mixin\Seo\SeoV1 as TrinitiCommonSeoV1;
 use Triniti\Schemas\Common\Mixin\Seo\SeoV1Mixin as TrinitiCommonSeoV1Mixin;
 use Triniti\Schemas\Common\Mixin\Themeable\ThemeableV1 as TrinitiCommonThemeableV1;
@@ -50,6 +52,7 @@ final class TimelineV1 extends AbstractMessage implements
     GdbotsNcrSluggableV1,
     TrinitiBoostSponsorableV1,
     TrinitiCommonAdvertisingV1,
+    TrinitiCommonCustomCodeV1,
     TrinitiCommonSeoV1,
     TrinitiCommonThemeableV1,
     TrinitiCuratorTeaserableV1,
@@ -66,7 +69,7 @@ final class TimelineV1 extends AbstractMessage implements
      */
     protected static function defineSchema()
     {
-        return new Schema('pbj:bachelornation:curator:node:timeline:1-0-0', __CLASS__,
+        return new Schema('pbj:bachelornation:curator:node:timeline:1-0-1', __CLASS__,
             [],
             [
                 GdbotsNcrNodeV1Mixin::create(),
@@ -78,6 +81,7 @@ final class TimelineV1 extends AbstractMessage implements
                 GdbotsNcrSluggableV1Mixin::create(),
                 TrinitiBoostSponsorableV1Mixin::create(),
                 TrinitiCommonAdvertisingV1Mixin::create(),
+                TrinitiCommonCustomCodeV1Mixin::create(),
                 TrinitiCommonSeoV1Mixin::create(),
                 TrinitiCommonThemeableV1Mixin::create(),
                 TrinitiCuratorTeaserableV1Mixin::create(),

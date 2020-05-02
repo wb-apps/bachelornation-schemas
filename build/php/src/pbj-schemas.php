@@ -1301,7 +1301,7 @@
         'triniti:canvas:mixin:youtube-playlist-block:v1' => [82],
         'triniti:canvas:mixin:youtube-video-block:v1' => [83],
         'triniti:common:mixin:advertising:v1' => [103,195,196,199,200,202,203,207,209,210,212,219,220,221,222,370,420,435,497,498],
-        'triniti:common:mixin:custom-code:v1' => [103,202,497,498],
+        'triniti:common:mixin:custom-code:v1' => [103,202,219,497,498],
         'triniti:common:mixin:seo:v1' => [103,195,196,199,200,202,203,207,209,210,212,219,220,221,222,370,420,435,497,498],
         'triniti:common:mixin:swipeable:v1' => [103,195,196,199,200,203,207,209,210,212,220,221,222,370,420],
         'triniti:common:mixin:themeable:v1' => [103,194,195,196,197,198,199,200,202,203,204,205,206,207,208,209,210,211,212,214,215,216,217,218,219,220,221,222,370,435,497,498],
