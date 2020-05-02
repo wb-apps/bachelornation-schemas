@@ -2,8 +2,8 @@
 
 
 ## v1.0.1
-* __Modify Schemas:__ _v1.0.1_
-* `bachelornation:curator:node:timeline`
+* __Modify Schemas:__
+  * `bachelornation:curator:node:timeline` patch revision `1-0-1`
     * Add mixin `triniti:common:mixin:custom-code:v1`
 
 
