@@ -9,7 +9,7 @@
     * Add mixin `gdbots:common:mixin:labelable:v1`
   * `bachelornation:news:node:article` patch revision `1-0-1`
     * Add mixin `gdbots:common:mixin:labelable:v1`
-  * `bachelornation:ovp:node:video` patch revision `1-0-3`
+  * `bachelornation:ovp:node:video` patch revision `1-0-1`
     * Add mixin `gdbots:common:mixin:labelable:v1`
 
 
