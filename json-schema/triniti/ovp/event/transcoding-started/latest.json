@@ -1,12 +1,12 @@
 {
-  "id": "https://schemas.bachelornation.com/json-schema/triniti/ovp.jwplayer/event/media-synced/1-0-2.json#",
+  "id": "https://schemas.bachelornation.com/json-schema/triniti/ovp/event/transcoding-started/1-0-0.json#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
     "_schema": {
       "type": "string",
       "pattern": "^pbj:([a-z0-9-]+):([a-z0-9\\.-]+):([a-z0-9-]+)?:([a-z0-9-]+):([0-9]+-[0-9]+-[0-9]+)$",
-      "default": "pbj:triniti:ovp.jwplayer:event:media-synced:1-0-2"
+      "default": "pbj:triniti:ovp:event:transcoding-started:1-0-0"
     },
     "event_id": {
       "type": "string",
@@ -194,40 +194,25 @@
     "node_ref": {
       "type": "string",
       "pattern": "^[\\w\\/\\.:-]+$",
+      "description": "A reference to the video asset that will be transcoded.",
       "pbj": {
         "type": "identifier",
         "rule": "single"
       }
     },
-    "jwplayer_media_id": {
+    "mediaconvert_job_arn": {
       "type": "string",
-      "pattern": "^[\\w-]+$",
+      "pattern": "^[\\/\\w:-]+$",
       "pbj": {
         "type": "string",
         "rule": "single"
       }
     },
-    "jwplayer_caption_keys": {
-      "type": "object",
-      "patternProperties": {
-        "^[a-zA-Z_]{1}[\\w\\.:-]+$": {
-          "type": "string",
-          "pattern": "^[\\w]+$"
-        }
-      },
-      "additionalProperties": false,
-      "description": "The keys of the jwplayer captions that were generated.",
+    "mediaconvert_queue_arn": {
+      "type": "string",
+      "pattern": "^[\\/\\w:-]+$",
       "pbj": {
         "type": "string",
-        "rule": "map"
-      }
-    },
-    "thumbnail_ref": {
-      "type": "string",
-      "pattern": "^[\\w\\/\\.:-]+$",
-      "description": "The node_ref of the image used to generate the jwplayer thumbnail.",
-      "pbj": {
-        "type": "identifier",
         "rule": "single"
       }
     }
