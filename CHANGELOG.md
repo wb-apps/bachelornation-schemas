@@ -1,6 +1,18 @@
 # CHANGELOG
 
 
+## v1.0.2
+* Use `gdbots/schemas` v1.6.6.
+* Use `triniti/schemas` v1.1.11.
+* __Modify Schemas:__
+  * `bachelornation:curator:node:gallery` patch revision `1-0-1`
+    * Add mixin `gdbots:common:mixin:labelable:v1`
+  * `bachelornation:news:node:article` patch revision `1-0-1`
+    * Add mixin `gdbots:common:mixin:labelable:v1`
+  * `bachelornation:ovp:node:video` patch revision `1-0-1`
+    * Add mixin `gdbots:common:mixin:labelable:v1`
+
+
 ## v1.0.1
 * __Modify Schemas:__
   * `bachelornation:curator:node:timeline` patch revision `1-0-1`
