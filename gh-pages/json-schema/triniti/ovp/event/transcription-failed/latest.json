@@ -1,12 +1,12 @@
 {
-  "id": "https://schemas.bachelornation.com/json-schema/triniti/ovp.jwplayer/event/media-synced/1-0-2.json#",
+  "id": "https://schemas.bachelornation.com/json-schema/triniti/ovp/event/transcription-failed/1-0-0.json#",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
     "_schema": {
       "type": "string",
       "pattern": "^pbj:([a-z0-9-]+):([a-z0-9\\.-]+):([a-z0-9-]+)?:([a-z0-9-]+):([0-9]+-[0-9]+-[0-9]+)$",
-      "default": "pbj:triniti:ovp.jwplayer:event:media-synced:1-0-2"
+      "default": "pbj:triniti:ovp:event:transcription-failed:1-0-0"
     },
     "event_id": {
       "type": "string",
@@ -194,12 +194,13 @@
     "node_ref": {
       "type": "string",
       "pattern": "^[\\w\\/\\.:-]+$",
+      "description": "A reference to the video asset that failed to transcribe.",
       "pbj": {
         "type": "identifier",
         "rule": "single"
       }
     },
-    "jwplayer_media_id": {
+    "transcribe_job_name": {
       "type": "string",
       "pattern": "^[\\w-]+$",
       "pbj": {
@@ -207,27 +208,57 @@
         "rule": "single"
       }
     },
-    "jwplayer_caption_keys": {
-      "type": "object",
-      "patternProperties": {
-        "^[a-zA-Z_]{1}[\\w\\.:-]+$": {
-          "type": "string",
-          "pattern": "^[\\w]+$"
-        }
-      },
-      "additionalProperties": false,
-      "description": "The keys of the jwplayer captions that were generated.",
+    "transcribe_job_region": {
+      "type": "string",
+      "pattern": "^([\\w\\/-]|[\\w-][\\w\\/-]*[\\w-])$",
+      "minLength": 0,
+      "maxLength": 20,
       "pbj": {
         "type": "string",
-        "rule": "map"
+        "rule": "single",
+        "format": "slug"
       }
     },
-    "thumbnail_ref": {
+    "language_code": {
       "type": "string",
-      "pattern": "^[\\w\\/\\.:-]+$",
-      "description": "The node_ref of the image used to generate the jwplayer thumbnail.",
+      "pattern": "^[\\w-]+$",
       "pbj": {
-        "type": "identifier",
+        "type": "string",
+        "rule": "single"
+      }
+    },
+    "error_code": {
+      "type": "integer",
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        16,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "pbj": {
+        "type": "int-enum",
+        "rule": "single"
+      }
+    },
+    "error_message": {
+      "type": "string",
+      "minLength": 0,
+      "maxLength": 65535,
+      "pbj": {
+        "type": "text",
         "rule": "single"
       }
     }

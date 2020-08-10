@@ -1,6 +1,6 @@
 {
   "name": "@bachelornation/schemas",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Schemas for all BachelorNation apps and components.",
   "repository": {
     "type": "git",
@@ -21,13 +21,13 @@
   "module": "./index.js",
   "jsnext:main": "./index.js",
   "dependencies": {
-    "@gdbots/schemas": "1.6.5",
-    "@triniti/schemas": "1.1.9"
+    "@gdbots/schemas": "1.6.6",
+    "@triniti/schemas": "1.1.11"
   },
   "peerDependencies": {
     "@gdbots/common": "~0.1 || ^1.0",
     "@gdbots/pbj": "~0.3 || ^1.0",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.19",
     "lodash-es": "^4.17.5",
     "md5": "^2.2.1",
     "uuid": "^3.1.0"
