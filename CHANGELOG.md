@@ -4,6 +4,8 @@
 ## v2.0.0
 * Use `gdbots/schemas` v2.1.0.
 * Use `triniti/schemas` v2.0.1.
+* __Add Schemas:__
+  * `bachelornation:canvas:block:eme-form-block`
 
 
 ## v1.0.3
