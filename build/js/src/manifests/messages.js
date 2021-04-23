@@ -68,6 +68,7 @@ export default {
   'bachelornation:canvas:block:code-block:v1': () => import('@bachelornation/schemas/bachelornation/canvas/block/CodeBlockV1'),
   'bachelornation:canvas:block:divider-block:v1': () => import('@bachelornation/schemas/bachelornation/canvas/block/DividerBlockV1'),
   'bachelornation:canvas:block:document-block:v1': () => import('@bachelornation/schemas/bachelornation/canvas/block/DocumentBlockV1'),
+  'bachelornation:canvas:block:eme-form-block:v1': () => import('@bachelornation/schemas/bachelornation/canvas/block/EmeFormBlockV1'),
   'bachelornation:canvas:block:facebook-post-block:v1': () => import('@bachelornation/schemas/bachelornation/canvas/block/FacebookPostBlockV1'),
   'bachelornation:canvas:block:facebook-video-block:v1': () => import('@bachelornation/schemas/bachelornation/canvas/block/FacebookVideoBlockV1'),
   'bachelornation:canvas:block:gallery-block:v1': () => import('@bachelornation/schemas/bachelornation/canvas/block/GalleryBlockV1'),

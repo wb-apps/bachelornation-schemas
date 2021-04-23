@@ -15,6 +15,7 @@ return [
     'bachelornation:canvas:block:code-block:v1',
     'bachelornation:canvas:block:divider-block:v1',
     'bachelornation:canvas:block:document-block:v1',
+    'bachelornation:canvas:block:eme-form-block:v1',
     'bachelornation:canvas:block:facebook-post-block:v1',
     'bachelornation:canvas:block:facebook-video-block:v1',
     'bachelornation:canvas:block:gallery-block:v1',

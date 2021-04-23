@@ -7,4 +7,5 @@
  */
 
 export default [
+  'bachelornation:canvas:block:eme-form-block:v1',
 ];

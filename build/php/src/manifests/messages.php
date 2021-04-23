@@ -71,6 +71,7 @@ return [
     'bachelornation:canvas:block:code-block:v1' => 'Bachelornation\Schemas\Canvas\Block\CodeBlockV1',
     'bachelornation:canvas:block:divider-block:v1' => 'Bachelornation\Schemas\Canvas\Block\DividerBlockV1',
     'bachelornation:canvas:block:document-block:v1' => 'Bachelornation\Schemas\Canvas\Block\DocumentBlockV1',
+    'bachelornation:canvas:block:eme-form-block:v1' => 'Bachelornation\Schemas\Canvas\Block\EmeFormBlockV1',
     'bachelornation:canvas:block:facebook-post-block:v1' => 'Bachelornation\Schemas\Canvas\Block\FacebookPostBlockV1',
     'bachelornation:canvas:block:facebook-video-block:v1' => 'Bachelornation\Schemas\Canvas\Block\FacebookVideoBlockV1',
     'bachelornation:canvas:block:gallery-block:v1' => 'Bachelornation\Schemas\Canvas\Block\GalleryBlockV1',
