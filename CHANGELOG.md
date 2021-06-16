@@ -1,6 +1,15 @@
 # CHANGELOG
 
 
+## v1.0.5
+* Use `gdbots/schemas` v1.6.7.
+* Use `triniti/schemas` v1.1.16.
+* __Add Schemas:__
+  * `bachelornation:canvas:block:eme-form-block`
+  * `bachelornation:iam:node:twitter-app`
+  * `bachelornation:notify:node:twitter-notification`
+
+
 ## v1.0.4
 * Use `triniti/schemas` v1.1.15.
 
