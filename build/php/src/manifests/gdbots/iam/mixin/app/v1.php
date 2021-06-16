@@ -18,4 +18,5 @@ return [
     'bachelornation:iam:node:ios-app:v1',
     'bachelornation:iam:node:slack-app:v1',
     'bachelornation:iam:node:sms-app:v1',
+    'bachelornation:iam:node:twitter-app:v1',
 ];

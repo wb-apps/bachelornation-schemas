@@ -18,4 +18,5 @@ return [
     'bachelornation:notify:node:ios-notification:v1',
     'bachelornation:notify:node:slack-notification:v1',
     'bachelornation:notify:node:sms-notification:v1',
+    'bachelornation:notify:node:twitter-notification:v1',
 ];
